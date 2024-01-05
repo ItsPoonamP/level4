@@ -7,12 +7,12 @@ body
 
 .image img
 {
-    width: 15.625rem;
-    height: 15.625rem;
+    width: 1562.5%;
+    height: 1562.5%;
     border-radius: 100%;
     position: absolute;
-    top: 8.75rem;
-    left: 3.125rem;
+    top: 875.0%;
+    left: 312.5%;
     box-shadow: 0rem 0rem 0rem 1.25rem  white;
 }
 
@@ -21,7 +21,7 @@ h1{
     left: 28.125rem;
     top: 10rem;
     width: 50rem;
-    font-size: 12.8022vh;
+    font: size 5.625rem;;
     color:gainsboro;
     background-color: darkcyan;
     box-shadow: 0.938rem 0.938rem 0.5rem 0rem cyan;
@@ -29,7 +29,7 @@ h1{
 }
 
 .list1 ul li{
-    display: inline-block;
+    display: flex;
     list-style: none;
 margin: 0.625rem 3.125rem;
 color: gainsboro;
@@ -65,13 +65,14 @@ span
 }
 .home
 {
-   
+  
     background-repeat: no-repeat;
     background-size:cover ;
      padding-bottom: 37.5rem;
      border-style: solid;
      border-color: aliceblue;
     animation: transitionIn 1s ;
+    
 }
 #home
 {
@@ -265,6 +266,7 @@ transition: 0.5s;
     height: 140px;
     width: 80px;
 }
+
 @keyframes transitionIn
 {
    from {
@@ -327,5 +329,3 @@ a[id="home"]:target~#home {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-  
- 
